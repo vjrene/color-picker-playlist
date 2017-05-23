@@ -1,0 +1,144 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+.rainbow{
+    display:flex;
+    //position: relative;
+}
+
+rect {
+  width: 100;
+  height: 100;
+}
+
+.color-btn {
+  width: 200px;
+  height: 200px;
+}
+
+.hover-text {
+  display: none;
+  color: white;
+  position: absolute;
+}
+
+.y {
+  color: brown;
+}
+
+.the-shade {
+  display: none;
+}
+
+.shade-bar:hover .hover-text {
+    display: inline;
+}
+
+.shades .shade-bar {
+  width: 100%;
+  height: 50px;
+}
+
+.red {
+  background-color: red;
+}
+.merlot {
+  background-color: #57130e;
+}
+.ruby {
+  background-color: #9B111E;
+}
+.pink{
+  background-color: #EF597B;
+}
+
+.orange {
+  background-color: orange;
+}
+.tangerine {
+  background-color: #FF9966;
+}
+.ginger {
+  background-color: #b06500;
+}
+.bronze {
+  background-color: #cd7f32;
+}
+
+
+.yellow {
+  background-color: yellow;
+}
+.gold {
+  background-color: #ffcf40;
+}
+.cream {
+  background-color: #FFFFCC;
+}
+.dandelion {
+  background-color: #f0e130;
+}
+
+
+.green {
+  background-color: green;
+}
+.forest {
+  background-color: #266A2E;
+}
+.emerald {
+  background-color: #53C670;
+}
+.paris {
+  background-color: #00a86b;
+}
+
+.blue {
+  background-color: blue;
+}
+.azure {
+  background-color: #0038A8;
+}
+.turquoise {
+  background-color: #34DDDD;
+}
+.tiffany {
+  background-color: #0abab5;
+}
+
+.purple {
+  background-color: purple;
+}
+.amethyst {
+  background-color: #9966cc;
+}
+.orchid {
+  background-color: #af65a2;
+}
+.violet {
+  background-color: #663399;
+}
+
+
+// #red-main {
+//   fill:red;
+// }
+// #orange-main {
+//   fill:orange;
+// }
+// #yellow-main {
+//   fill:yellow;
+// }
+// #green-main {
+//   fill:green;
+// }
+// #blue-main {
+//   fill:blue;
+// }
+// #purple-main {
+//   fill:purple;
+// }

@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>color-picker-playlist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <div id="c-nav">
+      <ol class="breadcrumb">
+        <li class="active">Home</li>
+        <li><a href="">Playlist</a></li>
+        <li><a href="">About</a></li>
+      </ol>
+    </div>
+    
+    <div class="jumbotron">
+    <h1>pick a color. any color.</h1>
+    <p>pick a color to get a spotify playlist based on your choice.</p>
+
+    <div class="rainbow">
+      <div class="color-btn btn-rd red"></div>
+      <div class="color-btn btn-or orange"></div>
+      <div class="color-btn btn-ye yellow"></div>
+      <div class="color-btn btn-gr green"></div>
+      <div class="color-btn btn-bl blue"></div>
+      <div class="color-btn btn-pr purple"></div>
+    </div>
+        <div class="shades">
+          <div class="the-shade red-shade-bar">
+            <div class="shade-bar red"><span class="hover-text"><h3>"red"</h3></span></div>
+            <div class="shade-bar merlot"><span class="hover-text"><h3>"merlot"</h3></span></div>
+            <div class="shade-bar ruby"><span class="hover-text"><h3>"ruby"</h3></span></div>
+            <div class="shade-bar pink"><span class="hover-text"><h3>"pink"</h3></span></div>
+          </div>
+
+          <div class="the-shade orange-shade-bar">
+            <div class="shade-bar orange"><span class="hover-text"><h3>"orange"</h3></span></div>
+            <div class="shade-bar ginger"><span class="hover-text"><h3>"ginger"</h3></span></div>
+            <div class="shade-bar tangerine"><span class="hover-text"><h3>"tangerine"</h3></span></div>
+            <div class="shade-bar bronze"><span class="hover-text"><h3>"bronze"</h3></span></div>
+          </div>
+
+          <div class="the-shade yellow-shade-bar">
+            <div class="shade-bar yellow"><span class="y hover-text"><h3>"yellow"</h3></span></div>
+            <div class="shade-bar gold"><span class="y hover-text"><h3>"gold"</h3></span></div>
+            <div class="shade-bar cream"><span class="y hover-text"><h3>"cream"</h3></span></div>
+            <div class="shade-bar dandelion"><span class="y hover-text"><h3>"dandelion"</h3></span></div>
+          </div>
+
+          <div class="the-shade green-shade-bar">
+            <div class="shade-bar green"><span class="hover-text"><h3>"green"</h3></span></div>
+            <div class="shade-bar forest"><span class="hover-text"><h3>"forest"</h3></span></div>
+            <div class="shade-bar emerald"><span class="hover-text"><h3>"emerald"</h3></span></div>
+            <div class="shade-bar paris"><span class="hover-text"><h3>"paris"</h3></span></div>
+          </div>
+
+          <div class="the-shade blue-shade-bar">
+            <div class="shade-bar blue"><span class="hover-text"><h3>"blue"</h3></span></div>
+            <div class="shade-bar azure"><span class="hover-text"><h3>"azure"</h3></span></div>
+            <div class="shade-bar turquoise"><span class="hover-text"><h3>"turquoise"</h3></span></div>
+            <div class="shade-bar tiffany"><span class="hover-text"><h3>"tiffany"</h3></span></div>
+          </div>
+
+          <div class="the-shade purple-shade-bar">
+            <div class="shade-bar purple"><span class="hover-text"><h3>"purple"</h3></span></div>
+            <div class="shade-bar amethyst"><span class="hover-text"><h3>"amethyst"</h3></span></div>
+            <div class="shade-bar violet"><span class="hover-text"><h3>"violet"</h3></span></div>
+            <div class="shade-bar orchid"><span class="hover-text"><h3>"orchid"</h3></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist jumbotron">
+        <h2>playlist based on *selected color*</h2>
+      </div>
+
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
